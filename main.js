@@ -16,11 +16,14 @@ var playing = 0;
 var firsttimevisitingpage1 = 1;
 
 function start(){
-  startinganimation(0);
   setTimeout(function(){
-    page0();
-    //document.getElementsByClassName('p1t1')[0].style.animation = 'right100 1s forwards';
-  }, 1500);
+    startinganimation(0);
+    setTimeout(function(){
+      page0(); 
+      //document.getElementsByClassName('p1t1')[0].style.animation = 'right100 1s forwards';
+    }, 1500);
+  },3000);
+
   //document.getElementsByClassName('titletext')[0].style.left =
 
 
