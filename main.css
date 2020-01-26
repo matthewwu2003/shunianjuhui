@@ -523,3 +523,9 @@ body{
   top:2%;
   transform: scale(0.75);
 }
+.webinfo{
+  color: white;
+}
+.webinfodiv{
+  text-align: center;
+}
